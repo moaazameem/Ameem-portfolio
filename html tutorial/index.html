@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amim - Developer portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(1, 3, 13);
+        color: white;
+        font-family: "poppins", sans-serif;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items:center ;
+        height: 60px;
+        background-color: rgb(42, 17, 152);
+      }
+
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(126, 126, 212);
+        font-size: 1.01rem;
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+      .firstsection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 180px 0;
+      }
+      .firstsection > div {
+        width: 30%;
+      }
+      .leftSection {
+        font-size: 2rem;
+      }
+      .leftSection .buttons{
+        padding: 23px;
+      }
+      .leftSection .btn{
+        padding: 10px;
+        background-color: rgb(37, 37, 93);
+        color: aliceblue;
+        border: 2px solid white;
+        border-radius: 6px;
+        font-size: 15px;
+        cursor: pointer;
+      }
+      .rightSection img {
+        width: 90%;
+        height: 300px;
+        border-radius: 10%;
+      }
+      .purple {
+        color: rgba(4, 219, 230, 0.604);
+      }
+      .text-gray {
+        color: gray;
+      }
+      #element {
+        color: rgb(159, 198, 31);
+      }
+      .secondSection {
+        max-width: 80vw;
+        margin: 100px;
+      }
+      .secondSection .box {
+        background-color: white;
+        width: 85vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+      .secondSection .vertical {
+        height: 60px;
+        width: 1px;
+        background-color: aliceblue;
+        margin: 0 130px;
+      }
+      .image-top {
+        width: 30px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+      }
+      .vertical-title {
+        position: relative;
+        top: 25px;
+        width: 130px;
+        font-size: 14px;
+      }
+      .vertical-desc {
+        position: relative;
+        top: 30px;
+        color: gray;
+        width: 150px;
+        font-size: 9px;
+      }
+      footer{
+        background-color: rgba(57, 36, 80, 0.541);
+        margin-top: 500px;
+      }
+      .footer{
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+
+      }
+      .footer ul{
+        list-style: none;
+        cursor: pointer;
+
+      }
+      .footer > div{
+        width: 223px;
+      }
+      footer .footer-rights{
+        text-align: center;
+        color: gray;
+        padding: 12px 0;
+      }
+    
+      
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Amim's portfolio</div>
+        <div class="right"></div>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact us</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="leftSection">
+          Hi, My name is <span class="purple">Amim</span>
+          <div>and i am a passionate</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="btn">Download Resume</button>
+            <button class="btn">Visit Github</button>
+          </div>
+        </div>
+        <div class="rightSection"><img src="bg1.jpg" alt="" /></div>
+      </section>
+      <hr
+        style="
+          border: 0;
+          background-color: rgba(226, 226, 6, 0.959);
+          height: 1.2px;
+          height: 1.2px;
+          margin: -75px 60px;
+        "
+      />
+      <section class="secondSection">
+        <span class="text-gray"> What I have done so far</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="developer.png" alt="" />
+            <div class="vertical-title">
+              HTML Developer (2010-2012)
+            </div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. A enim
+              beatae labore distinctio quibusdam, facere nemo ipsam, laboriosam
+              quaerat obcaecati repellat culpa nisi qui adipisci.
+            </div>
+          </div>
+            <div class="vertical">
+              <img class="image-top" src="developer.png" alt="" />
+              <div class="vertical-title">HTML Developer (2010-2012)</div>
+              <div class="vertical-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. A enim
+                beatae labore distinctio quibusdam, facere nemo ipsam, laboriosam
+                quaerat obcaecati repellat culpa nisi qui adipisci.
+              </div>
+            </div>
+            <div class="vertical">
+              <img class="image-top" src="developer.png" alt="" />
+              <div class="vertical-title">HTML Developer (2010-2012)</div>
+              <div class="vertical-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. A enim
+                beatae labore distinctio quibusdam, facere nemo ipsam, laboriosam
+                quaerat obcaecati repellat culpa nisi qui adipisci.
+              </div>
+            </div>
+            <div class="vertical">
+              <img class="image-top" src="developer.png" alt="" />
+              <div class="vertical-title">HTML Developer (2010-2012)</div>
+              <div class="vertical-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. A enim
+                beatae labore distinctio quibusdam, facere nemo ipsam, laboriosam
+                quaerat obcaecati repellat culpa nisi qui adipisci.
+              </div>
+            </div>
+            <div class="vertical">
+              <img class="image-top" src="developer.png" alt="" />
+              <div class="vertical-title">HTML Developer (2010-2012)</div>
+              <div class="vertical-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. A enim
+                beatae labore distinctio quibusdam, facere nemo ipsam, laboriosam
+                quaerat obcaecati repellat culpa nisi qui adipisci.
+              </div>
+          </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Amim's Developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+           <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+           </ul>
+        </div>
+        <div class="footer-third">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+           </ul>
+        </div>
+        <div class="footer-fourth">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+           </ul>
+        </div>
+      </div>
+      <div class="footer-rights">
+       copyright &#169; www.amimsportfolio.com | All rights reserved
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Developer",
+          "Graphic Designer",
+          "Web Designer",
+          "Digital Marketer",
+        ],
+        typeSpeed: 80,
+      });
+    </script>
+  </body>
+</html>
